@@ -64,20 +64,136 @@ class AccueilState extends State<Accueil> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          Container(
-                            height: MediaQuery.of(context).size.height * 0.06,
-                            width: MediaQuery.of(context).size.width * 0.45,
-                            decoration: BoxDecoration(
-                                color: Color.fromRGBO(38, 40, 64, 1),
-                                borderRadius: BorderRadius.circular(10)),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.pushNamed(context, '/Playlist');
+                            },
+                            child: Container(
+                              height: MediaQuery.of(context).size.height * 0.06,
+                              width: MediaQuery.of(context).size.width * 0.45,
+                              decoration: BoxDecoration(
+                                  color: Color.fromRGBO(38, 40, 64, 1),
+                                  borderRadius: BorderRadius.circular(10)),
+                              child: Row(children: [
+                                Container(
+                                  height:
+                                      MediaQuery.of(context).size.height * 0.06,
+                                  width:
+                                      MediaQuery.of(context).size.height * 0.06,
+                                  decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                            "https://beehy.pe/wp-content/uploads/2019/12/HVOB-Rocco.jpg"),
+                                        fit: BoxFit.cover,
+                                      ),
+                                      borderRadius: BorderRadius.circular(10)),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(
+                                      horizontal:
+                                          MediaQuery.of(context).size.width *
+                                              0.015),
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.3,
+                                  child: Column(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceEvenly,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'SAD',
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                        ],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            '100 Songs',
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ]),
+                            ),
                           ),
-                          Container(
-                            height: MediaQuery.of(context).size.height * 0.06,
-                            width: MediaQuery.of(context).size.width * 0.45,
-                            decoration: BoxDecoration(
-                                color: Color.fromRGBO(38, 40, 64, 1),
-                                borderRadius: BorderRadius.circular(10)),
-                          )
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.pushNamed(context, '/Playlist');
+                            },
+                            child: Container(
+                              height: MediaQuery.of(context).size.height * 0.06,
+                              width: MediaQuery.of(context).size.width * 0.45,
+                              decoration: BoxDecoration(
+                                  color: Color.fromRGBO(38, 40, 64, 1),
+                                  borderRadius: BorderRadius.circular(10)),
+                              child: Row(children: [
+                                Container(
+                                  height:
+                                      MediaQuery.of(context).size.height * 0.06,
+                                  width:
+                                      MediaQuery.of(context).size.height * 0.06,
+                                  decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                            "https://beehy.pe/wp-content/uploads/2019/12/Sinie-Gory-Sozvesdie-Rodinok.jpg"),
+                                        fit: BoxFit.cover,
+                                      ),
+                                      borderRadius: BorderRadius.circular(10)),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(
+                                      horizontal:
+                                          MediaQuery.of(context).size.width *
+                                              0.015),
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.3,
+                                  child: Column(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceEvenly,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'Rock',
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                        ],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            '100 Songs',
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ]),
+                            ),
+                          ),
                         ],
                       ),
                       Row(
@@ -147,13 +263,71 @@ class AccueilState extends State<Accueil> {
                               ]),
                             ),
                           ),
-                          Container(
-                            height: MediaQuery.of(context).size.height * 0.06,
-                            width: MediaQuery.of(context).size.width * 0.45,
-                            decoration: BoxDecoration(
-                                color: Color.fromRGBO(38, 40, 64, 1),
-                                borderRadius: BorderRadius.circular(10)),
-                          )
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.pushNamed(context, '/Playlist');
+                            },
+                            child: Container(
+                              height: MediaQuery.of(context).size.height * 0.06,
+                              width: MediaQuery.of(context).size.width * 0.45,
+                              decoration: BoxDecoration(
+                                  color: Color.fromRGBO(38, 40, 64, 1),
+                                  borderRadius: BorderRadius.circular(10)),
+                              child: Row(children: [
+                                Container(
+                                  height:
+                                      MediaQuery.of(context).size.height * 0.06,
+                                  width:
+                                      MediaQuery.of(context).size.height * 0.06,
+                                  decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                            "https://scontent.flil1-1.fna.fbcdn.net/v/t1.6435-9/73533157_10157818994302728_2461697184723107840_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=pZys8cLRQTcAX8SuITs&_nc_ht=scontent.flil1-1.fna&oh=00_AT9ElWygNqhxfz9lDi5qQgvOKNVUcpdwKdVfPb7dmJel4Q&oe=6241A852"),
+                                        fit: BoxFit.cover,
+                                      ),
+                                      borderRadius: BorderRadius.circular(10)),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(
+                                      horizontal:
+                                          MediaQuery.of(context).size.width *
+                                              0.015),
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.3,
+                                  child: Column(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceEvenly,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'Liked',
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                        ],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            '92 Songs',
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ]),
+                            ),
+                          ),
                         ],
                       ),
                       Container(
@@ -247,7 +421,8 @@ class AccueilState extends State<Accueil> {
                             width: MediaQuery.of(context).size.height * 0.15,
                             decoration: BoxDecoration(
                                 image: DecorationImage(
-                                  image: AssetImage("asset/album.jpeg"),
+                                  image: NetworkImage(
+                                      "https://beehy.pe/wp-content/uploads/2020/01/Best-of-2019-beehype-1.jpg"),
                                   fit: BoxFit.cover,
                                 ),
                                 borderRadius: BorderRadius.circular(20)),
@@ -283,7 +458,8 @@ class AccueilState extends State<Accueil> {
                             width: MediaQuery.of(context).size.height * 0.15,
                             decoration: BoxDecoration(
                                 image: DecorationImage(
-                                  image: AssetImage("asset/album.jpeg"),
+                                  image: NetworkImage(
+                                      "https://beehy.pe/wp-content/uploads/2019/12/wos-caravana.jpg"),
                                   fit: BoxFit.cover,
                                 ),
                                 borderRadius: BorderRadius.circular(20)),
