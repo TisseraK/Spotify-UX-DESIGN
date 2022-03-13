@@ -1,5 +1,6 @@
 # spotify_uxdesign
-
+Aucune librairy Flutter n'a été utilisé pour réaliser ce projet.
+Tout est fait main, sauf le design bien sur.
 Crédit : https://behance.net/gallery/95410817/Spotify-Re-Design-Concept?tracking_source=search_projects%7Cconcept%20app
 
 ## ⚠️ Le design n'est pas de moi, je me suis inspiré d'un projet sur Behance.
